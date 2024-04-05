@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica, sans-serif;
+    font-size: 22px !important;
+}
+
+main {
+  opacity: 0.9;
+}
+
+   * {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    border: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    padding-left: 10px;
+    margin: 0px auto;
+    z-index: 2;
+  }
+
+  li {
+    display: inline-flex;
+    justify-content: center;
+    text-decoration: underline;
+    z-index: 3;
+  }
+
+  #logo {
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 1400px;
+  }
+
+
+  .images {
+    margin-top: 69px !important;
+    width: 1200px;
+    height: 700px;
+    position: relative;
+  }
+
+  .head {
+    width: 100%;
+    position: absolute;
+    bottom: 50%;
+    z-index: 1;
+    line-height: 2;
+   }
+
+  .col img {
+    width: 300px;
+    height: 200px;
+  }
+
+
+  .banner {
+    padding-top: 50px;
+   line-height: 3;
+  }
+
+
+.container {
+  padding-bottom: 50px;
+  padding-top: 0px;
+  margin: 0px auto;
+}
+  
+.spaser {
+  max-width: 600px;
+  margin: 50px auto;
+}
+  
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+}
+
+.col {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+h3 {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  margin-top: 210px;
+  position: absolute;
+}
+
+.container h2 {
+  line-height: 2;
+}
+
+#locations {
+  margin: 0px auto;
+  width: 1200px;
+  height: 500px;
+  position: relative;
+  z-index: 2;
+  
+}
+
+.local {
+  margin-bottom: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 70%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0)
+ 
+}
+
+.items {
+ display: inline-block;
+ margin: 40px auto;
+ width: 30%;
+ position: relative;
+ margin-top: 15px;
+ bottom: 800px;
+}
+
+.items h3 {
+  height: 300px;
+  width: 300px;
+  line-height: 3;
+}
+
+.footer {
+  height: 200px;
+  margin-top: 350px;
+  margin-bottom: 60px;
+  text-align: center;
+  position: relative;
+  line-height: 3;
+}
+
+.footer2 {
+  text-align: left !important;
+ float: left;
+ padding-left: 10px;
+}
